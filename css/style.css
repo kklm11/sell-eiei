@@ -129,6 +129,7 @@ padding:40px;
     color:#22c55e;
 }
 .btn-buy{
+    display:block;
     width:calc(100% - 30px);
     margin:15px;
     padding:14px;
@@ -136,6 +137,8 @@ padding:40px;
     border-radius:10px;
     background:#7e22ce;
     color:#fff;
+    text-decoration:none;
+    text-align:center;
     font-size:18px;
     font-weight:bold;
     cursor:pointer;
