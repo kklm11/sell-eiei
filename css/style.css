@@ -97,17 +97,18 @@ padding:40px;
 }
 
 .product-grid{
-    .product-grid{
     display:flex;
     justify-content:center;
 }
 
 .card{
-    background:#18142f;
+   .card{
+    width:380px;
+    margin:0 auto;
+    background:#1d1735;
     border-radius:20px;
     overflow:hidden;
-    box-shadow:0 0 20px rgba(128,0,255,.3);
-    transition:.3s;
+    box-shadow:0 0 30px #7b2cff66;
 }
 
 .card:hover{
@@ -125,11 +126,9 @@ padding:40px;
 }
 
 .card img{
-   .card img{
     width:100%;
     height:180px;
     object-fit:cover;
-    display:block;
 }
 
 .card h3{
