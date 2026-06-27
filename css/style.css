@@ -145,3 +145,28 @@ padding:40px;
 .btn-buy:hover{
     background:#9333ea;
 }
+.features{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.features h2{
+    color:#d8b4fe;
+    font-size:36px;
+    margin-bottom:30px;
+}
+
+.feature-box{
+    width:500px;
+    max-width:90%;
+    margin:auto;
+    background:#1d1735;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 0 20px rgba(128,0,255,.3);
+}
+
+.feature-box p{
+    font-size:20px;
+    margin:15px 0;
+}
