@@ -169,3 +169,14 @@ padding:40px;
     font-size:20px;
     margin:15px 0;
 }
+.btn,
+.btn:link,
+.btn:visited{
+    color:#fff !important;
+    text-decoration:none !important;
+}
+
+.btn:hover{
+    color:#fff !important;
+    background:#9333ea;
+}
