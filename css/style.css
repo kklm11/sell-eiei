@@ -129,17 +129,6 @@ padding:40px;
     padding:0 15px;
     color:#22c55e;
 }
-
-.btn-buy{
-    margin:15px;
-    width:calc(100% - 30px);
-    padding:12px;
-    border:none;
-    border-radius:10px;
-    background:#7e22ce;
-    color:#fff;
-    cursor:pointer;
-}
 .btn-buy{
     width:calc(100% - 30px);
     margin:15px;
