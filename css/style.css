@@ -211,3 +211,11 @@ html{
     margin:20px auto;
     border-radius:10px;
 }
+.buy-container{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:40px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
