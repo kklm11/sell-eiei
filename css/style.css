@@ -180,3 +180,6 @@ padding:40px;
     color:#fff !important;
     background:#9333ea;
 }
+html{
+    scroll-behavior: smooth;
+}
