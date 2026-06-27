@@ -133,16 +133,19 @@ padding:40px;
     width:calc(100% - 30px);
     margin:15px;
     padding:14px;
-    border:none;
     border-radius:10px;
     background:#7e22ce;
     color:#fff;
-    text-decoration:none;
-    text-align:center;
     font-size:18px;
     font-weight:bold;
+    text-align:center;
+    text-decoration:none;
     cursor:pointer;
-    margin-top:auto;
+}
+
+.btn-buy:hover{
+    background:#9333ea;
+}
 }
 
 .btn-buy:hover{
