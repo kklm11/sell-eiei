@@ -268,3 +268,9 @@ html{
     text-align:center;
     padding:0 20px 20px;
 }
+.stock{
+    color:#22c55e;
+    font-size:18px;
+    font-weight:bold;
+    padding:0 15px;
+}
