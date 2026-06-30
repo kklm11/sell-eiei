@@ -54,7 +54,6 @@ header{
 
     z-index:1000;
 }
-}
 
 .logo{
 
@@ -239,10 +238,13 @@ html{
     scroll-behavior: smooth;
 }
 .hero{
+    min-height:75vh;
     display:flex;
     flex-direction:column;
+    justify-content:center;
     align-items:center;
-    padding:60px 20px;
+    text-align:center;
+    padding:40px 20px;
 }
 
 .hero .card{
