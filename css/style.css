@@ -33,15 +33,27 @@ background-size:60px 60px;
 }
 
 header{
+    position:sticky;
+    top:20px;
+    width:90%;
+    margin:auto;
 
-display:flex;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 
-justify-content:space-between;
+    padding:16px 35px;
 
-padding:20px 50px;
+    background:rgba(20,9,45,.6);
 
-background:#14092d;
+    backdrop-filter:blur(15px);
 
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    z-index:1000;
+}
 }
 
 .logo{
@@ -55,12 +67,14 @@ color:#c084fc;
 }
 
 nav a{
+    color:#e2e8f0;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
+}
 
-color:white;
-
-text-decoration:none;
-
-margin-left:25px;
+nav a:hover{
+    color:#c084fc;
 
 }
 
@@ -279,4 +293,43 @@ html{
     font-size:18px;
     font-weight:bold;
     padding:0 15px;
+}
+.badge{
+    display:inline-block;
+    padding:8px 18px;
+    background:rgba(139,92,246,.15);
+    border:1px solid rgba(139,92,246,.4);
+    border-radius:999px;
+    color:#d8b4fe;
+    margin-bottom:20px;
+    font-size:15px;
+}
+
+.hero p{
+    color:#cbd5e1;
+    font-size:22px;
+    line-height:1.8;
+    max-width:650px;
+    margin:auto;
+}
+
+.hero-buttons{
+    margin-top:35px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.btn-outline{
+    padding:15px 35px;
+    border:2px solid #8b5cf6;
+    border-radius:30px;
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.btn-outline:hover{
+    background:#8b5cf6;
 }
