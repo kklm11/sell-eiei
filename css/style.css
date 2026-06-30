@@ -11,6 +11,8 @@ body{
     color:#fff;
 
     overflow-x:hidden;
+    body{
+    padding-top:120px;
 }
 body::before{
     content:"";
@@ -53,6 +55,13 @@ header{
     border-radius:20px;
 
     z-index:1000;
+    header{
+    position:fixed;
+    top:20px;
+    left:25px;
+    right:25px;
+    z-index:999;
+}
 }
 
 .logo{
@@ -86,14 +95,16 @@ padding:120px 20px;
 }
 
 .hero h1{
-    font-size:72px;
+    font-size:84px;
     text-align:center;
-    margin-top:60px;
-    margin-bottom:50px;
-    color:#d8b4fe;
-    font-weight:800;
-    letter-spacing:1px;
 
+    color:#d8b4fe;
+    font-weight:900;
+    letter-spacing:-2px;
+
+    margin-top:30px;
+    margin-bottom:35px;
+    line-height:1.05;
 }
 
 .btn{
@@ -238,13 +249,15 @@ html{
     scroll-behavior: smooth;
 }
 .hero{
-    min-height:75vh;
+    min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:40px 20px;
+
+    padding-top:120px;
+    padding-bottom:120px;
 }
 
 .hero .card{
