@@ -24,15 +24,6 @@ body::before{
 
     z-index:-1;
 }
-background:#0b1020;
-
-color:white;
-
-font-family:Arial;
-
-margin:0;
-
-}
 
 header{
 
@@ -153,9 +144,6 @@ padding:40px;
         0 0 45px rgba(168,85,247,.25);
 
 }
-.card:hover{
-    transform:translateY(-8px);
-}
 
 .card > img:first-child{
     width:100%;
@@ -195,20 +183,10 @@ padding:40px;
     transition:.3s;
 
 }
-.btn-buy:hover{
 
+.btn-buy:hover{
     transform:translateY(-2px);
-
     background:linear-gradient(90deg,#8b5cf6,#a855f7);
-
-}
-.btn-buy:hover{
-    background:#9333ea;
-
-}
-
-.btn-buy:hover{
-    background:#9333ea;
 }
 .features{
     padding:60px 20px;
@@ -260,14 +238,6 @@ html{
     margin-top:30px;
 }
 .qr{
-    width:220px;
-    margin:20px auto;
-    display:block;
-    border-radius:15px;
-    background:#fff;
-    padding:10px;
-}
-.qr{
     width:300px;
     height:auto;
     margin:20px auto;
@@ -282,23 +252,11 @@ html{
     margin-top:40px;
     flex-wrap:wrap;
 }
-.buy-container{
-    display:flex;
-    justify-content:center;
-    align-items:stretch;
-    gap:40px;
-    margin-top:40px;
-}
 
 .buy-container .card{
     width:480px;
     display:flex;
     flex-direction:column;
-}
-.line{
-    border:none;
-    border-top:1px solid rgba(255,255,255,.15);
-    margin:20px;
 }
 
 .notice{
@@ -318,14 +276,6 @@ html{
     font-size:22px;
     font-weight:bold;
     text-align:center;
-}
-
-.notice{
-    color:#d8b4fe;
-    font-size:16px;
-    line-height:1.6;
-    text-align:center;
-    padding:0 20px 20px;
 }
 .stock{
     color:#22c55e;
