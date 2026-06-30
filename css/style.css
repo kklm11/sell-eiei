@@ -354,3 +354,21 @@ html{
     color:#000 !important;
     -webkit-text-stroke:2px #fff;
 }
+.products{
+    padding:100px 40px;
+    text-align:center;
+}
+
+.products h2{
+    width:100%;
+    text-align:center;
+    margin:0 auto 60px;
+    font-size:48px;
+    color:#d8b4fe;
+}
+
+.product-grid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
