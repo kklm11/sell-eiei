@@ -23,6 +23,13 @@ body::before{
         radial-gradient(circle at 80% 70%, rgba(96,165,250,.08), transparent 35%);
 
     z-index:-1;
+background-image:
+
+linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+
+linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+
+background-size:60px 60px;
 }
 
 header{
@@ -90,9 +97,7 @@ padding:120px 20px;
 }
 
 .products{
-
-padding:60px;
-
+    padding:120px 40px;
 }
 
 footer{
@@ -110,7 +115,7 @@ padding:40px;
     text-align:center;
     font-size:40px;
     color:#d8b4fe;
-    margin-bottom:40px;
+    margin-bottom:70px;
 }
 
 .product-grid{
@@ -147,9 +152,8 @@ padding:40px;
 
 .card > img:first-child{
     width:100%;
-    height:180px;
+    height:260px;
     object-fit:cover;
-    display:block;
 }
 .card h3{
     padding:15px;
