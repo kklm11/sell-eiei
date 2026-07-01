@@ -69,25 +69,22 @@ nav a{
 
 nav a:hover{
     color:#c084fc;
+}
 
 nav a::after{
     content:"";
     position:absolute;
     left:0;
     bottom:-6px;
-
     width:0%;
     height:2px;
-
     background:#a855f7;
     transition:.3s;
 }
 
 nav a:hover::after{
     width:100%;
-
 }
-
 .hero{
     min-height:100vh;
 
