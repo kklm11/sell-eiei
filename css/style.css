@@ -60,15 +60,32 @@ header{
 }
 
 nav a{
+    position:relative;
     color:#e2e8f0;
     text-decoration:none;
-    margin-left:30px;
-    font-weight:600;
+    margin-left:25px;
     transition:.3s;
 }
 
 nav a:hover{
     color:#c084fc;
+
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+
+    width:0%;
+    height:2px;
+
+    background:#a855f7;
+    transition:.3s;
+}
+
+nav a:hover::after{
+    width:100%;
+
 }
 
 .hero{
