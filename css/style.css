@@ -266,11 +266,15 @@ html{
     margin-top:30px;
 }
 .qr{
-    width:300px;
+    width:100%;
+    max-width:300px;
     height:auto;
-    margin:20px auto;
+    object-fit:contain;
     display:block;
+    margin:20px auto;
     border-radius:12px;
+    background:#fff;
+    padding:10px;
 }
 .buy-container{
     display:flex;
