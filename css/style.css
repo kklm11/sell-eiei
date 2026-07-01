@@ -373,12 +373,12 @@ html{
     align-items:center;
 }
 .buy-page{
-    padding:120px 20px 60px;
+    padding:20px 20px 60px;
     text-align:center;
 }
 
 .buy-page h1{
     font-size:52px;
     color:#d8b4fe;
-    margin-bottom:40px;
+    margin:20px 0 40px;
 }
