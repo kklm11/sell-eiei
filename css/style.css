@@ -86,8 +86,8 @@ nav a:hover::after{
     width:100%;
 }
 .hero{
-    min-height:100vh;
-
+    min-height:85vh;
+}
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -103,9 +103,8 @@ nav a:hover::after{
     line-height:1.05;
     letter-spacing:-2px;
 
-    margin:25px 0;
+   margin:10px 0 15px;
 }
-
 .hero p{
     max-width:650px;
 
@@ -352,7 +351,7 @@ html{
     font-size:22px;
     line-height:1.8;
     max-width:650px;
-    margin:auto;
+   margin:10px auto 0;
 }
 
 .hero-buttons{
